@@ -9,3 +9,4 @@ RUN android create avd --force --name android-$AVD_VERSION --target android-$AVD
 
 COPY init.sh /opt/bin/init.sh
 RUN chmod +x /opt/bin/init.sh
+CMD ["/opt/bin/init.sh"]
