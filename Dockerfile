@@ -1,4 +1,4 @@
-FROM taraslrysiuk/appium_android
+FROM taraskrysiuk/appium_android
 MAINTAINER Taras Krysiuk
 
 ENV AVD_VERSION 19
